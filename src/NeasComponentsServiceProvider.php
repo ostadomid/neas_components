@@ -9,7 +9,7 @@ class NeasComponentsServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . "\\components" => resource_path('./js/components/neas')
+            __DIR__ . "/components" => resource_path('js/components/neas')
         ]);
     }
 }
