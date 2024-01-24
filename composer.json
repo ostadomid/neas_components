@@ -20,5 +20,6 @@
         }
     ],
     "require": {},
+    "type": "library",
     "minimum-stability": "stable"
 }
