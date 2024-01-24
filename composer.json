@@ -1,0 +1,23 @@
+{
+    "name": "neas/neas_components",
+    "description": "Just a bunch of Vue components based on VeeValidate",
+    "autoload": {
+        "psr-4": {
+            "Neas\\NeasComponents\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Neas\\NeasComponents\\NeasComponentsServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "OstadOmid",
+            "email": "ostadomid@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
