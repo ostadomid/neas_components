@@ -19,5 +19,6 @@
             "email": "ostadomid@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "stable"
 }
