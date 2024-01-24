@@ -10,6 +10,6 @@ class NeasComponentsServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . "/components" => resource_path('js/components/neas')
-        ]);
+        ], 'neas-cmp');
     }
 }
